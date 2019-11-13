@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <style>
+      body{
+  background-color: #808080;
+}
+h1{
+  text-align: center;
+  font-family: Trebuchet MS;
+  font-size: 32px;
+  margin-right: 200;
+  margin-left; 200;
+  background-color: #666666;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  }
+
+.forms{
+  padding-top: 20px;
+  margin-left: 525px;
+  font-size: 20px;
+  font-family: Trebuchet MS;
+  
+}
+  
+.textbox {
+   font-size: 20px;
+    height: 15px;
+    width : 300px;
+}
+
+      #dropdown {
+        margin-left: 525px;
+  font-size: 20px;
+  padding-top: 22px;
+  font-family: Trebuchet MS;
+      }
+      #yes {
+        margin-left: 525px;
+  font-size: 20px;
+  padding-top: 22px;
+  font-family: Trebuchet MS;
+      }
+      #no {
+        margin-left: 525px;
+  font-size: 20px;
+  padding-top: 22px;
+  font-family: Trebuchet MS;
+      }
+#description{
+  margin-left: 525px;
+  font-size: 18px;
+  padding-top: 22px;
+  font-family: Trebuchet MS;
+}
+#tell{
+  margin-left: 525px;
+  }
+#submit{
+  margin-left: 750px;
+  }
+    </style>
+  </body>
+  <title>Survey Form</title>
+   <h1>
+    Game of Thrones Survey
+  </h1> 
+</header>
+  
+<div class=forms>
+<label id= "name-label" for="name">Name:</label>
+  <input type=email class="textbox" placeholder="What is your name?">
+</div>
+  <div class=forms>
+<label for="email">Email:</label>
+  <input type=text class="textbox" name="Email" placeholder="Email address.">      
+        </div>
+<div class=forms>
+  <label for="age">Age:</label>
+    <input type="number"  min="18" max="99" class="textbox" name="Age" placeholder="How old are you?">
+</div>
+<div id= "dropdown">
+  <label for="dropdown">Would you rewatch GoT?</label>
+  <select>
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select>
+</div>
+<div class=forms>
+  <label for="number">How many favorite characters you have?</label>
+  <input type="number" class="textbox" name="Number" placeholder="Insert number">
+</div>
+
+  
+  <div class=forms>
+    <p>Did GoT deserved another ending?</p>
+    <label>
+    <input type="checkbox" id="Yes" name="answer" value="yes">
+      "Yes"
+    </label>
+  <label>
+    <input type="checkbox" id="no" name="answer" value="no">
+    "No"
+    </label>
+  </div>
+
+<div id="description">
+      <p> Please describe your <b>favorite</b> Game of Thrones character </p>   
+    </div>    
+ <div>
+    <textarea id="tell" rows="10" cols="100"></textarea>
+    </div>
+
+   <fieldset>
+  <div>
+<input type="submit" id="submit">
+    </div>
+</fieldset>
+
+  
